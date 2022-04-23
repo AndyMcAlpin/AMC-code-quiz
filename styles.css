@@ -10,20 +10,49 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: blue;
 }
 
 header{
     display: flex;
     align-self: start;
+    justify-content: space-between;
 }
 
-#high-scores {
-    justify-content: left;
-    align-items: flex-start;
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
 }
 
-#time {
-    justify-content:space-between;
-    align-items: flex-start;
+.btn-grid {
+    display: grid;
+    gap: 10px;
+    margin: 20px; 
 }
 
+.btn {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 5px, 10px;
+    outline: none;
+}
+
+.start-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
